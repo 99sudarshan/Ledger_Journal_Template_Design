@@ -45,52 +45,61 @@ const Journal = () => {
             </div>
 
             {/* IN journal body */}
-            <div className="flex justify-center items-center font-medium text-lg">
-              <div className="flex-[5] border-r-2 border-black min-h-[40rem] pt-5">
-                <div className="flex justify-between items-center pl-12 pr-2 ">
-                  <p>Abs</p>
-                  <span className="italic">Dr</span>
+            <div>
+              <div className="flex justify-center items-center font-medium text-lg">
+                <div className="flex-[5] border-r-2 border-black min-h-[40rem] pt-5">
+                  <div className="flex justify-between items-center pl-12 pr-2 ">
+                    <p>Abs</p>
+                    <span className="italic">Dr</span>
+                  </div>
+
+                  <div className="flex justify-between items-center pl-12 pr-2 ">
+                    <p>Agst Ref 10</p>
+                    <div>5,000.00</div>
+                  </div>
+
+                  <div className="mt-4">
+                    <p>
+                      <span className="italic mr-2">To</span>Charger
+                    </p>
+                  </div>
                 </div>
 
-                <div className="flex justify-between items-center pl-12 pr-2 ">
-                  <p>Agst Ref 10</p>
-                  <div>5,000.00</div>
+                <div className="flex-[3] text-right border-r-2 border-black min-h-[40rem] pt-5 ">
+                  <div className="flex justify-end pr-2">5,000.00</div>
                 </div>
 
-                <div className="mt-4">
-                  <p>
-                    <span className="italic mr-2">To</span>Charger
-                  </p>
+                <div className="flex-[3] text-right min-h-[40rem]">
+                  <div className="h-full pt-24 pr-2">
+                    <div>5,000.00</div>
+                  </div>
                 </div>
               </div>
 
-              <div className="flex-[3] text-right border-r-2 border-black min-h-[40rem] pt-5 ">
-                <div className="flex justify-end pr-2">5,000.00</div>
-              </div>
-
-              <div className="flex-[3] text-right min-h-[40rem]">
-                <div className="h-full pt-24 pr-2">
-                  <div>5,000.00</div>
+              {/* Dr Cr total */}
+              <div className="flex justify-center items-center font-medium h-10 text-lg ">
+                <div className="flex-[5] relative bottom-12 ">
+                  <div className="flex flex-col justify-center">
+                    <p>On Account of:</p>
+                    <p className="pl-12 uppercase tracking-wider font-normal">
+                      being bbs ma msc
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-[3] text-right border-2 border-black h-full">
+                  <div className=" leading-8 pr-2">NRs 5,000.00</div>
+                </div>
+                <div className="flex-[3] text-right  border-t-2 border-b-2 border-black h-full ">
+                  <div className="leading-8 pr-2">NRs 5,000.00</div>
                 </div>
               </div>
             </div>
 
-            {/* Dr Cr total */}
-            <div className="flex justify-center items-center font-medium h-10 text-lg ">
-              <div className="flex-[5] relative bottom-12 ">
-                <div className="flex flex-col justify-center">
-                  <p>On Account of:</p>
-                  <p className="pl-12 uppercase tracking-wider font-normal">
-                    being bbs ma msc
-                  </p>
-                </div>
-              </div>
-              <div className="flex-[3] text-right border-2 border-black h-full">
-                <div className=" leading-8 pr-2">NRs 5,000.00</div>
-              </div>
-              <div className="flex-[3] text-right  border-t-2 border-b-2 border-black h-full ">
-                <div className="leading-8 pr-2">NRs 5,000.00</div>
-              </div>
+            {/* Authorised Signatory */}
+            <div className="text-right pt-28">
+              <h1 className="font-medium text-lg tracking-wide">
+                Authorised Signatory
+              </h1>
             </div>
           </div>
         </div>
