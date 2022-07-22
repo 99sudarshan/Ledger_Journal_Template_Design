@@ -96,14 +96,14 @@ const SalesPurchaseAndJournal = () => {
                         <th className=" px-10 text-right">Vch Type</th>
                         <th className="px-10 text-right">Vch No</th>
                         <th className="text-right">Debit Amount</th>
-                        <th className="text-right pr-10">Credit Amount</th>
+                        <th className="text-right pr-6">Credit Amount</th>
                       </tr>
                       <tr className="border-b border-gray-400">
                         <th colSpan={4}></th>
                         <th className="border-t border-gray-400 font-medium text-right">
                           Inwards Qty.
                         </th>
-                        <th className="border-t border-gray-400 font-medium text-right pr-10">
+                        <th className="border-t border-gray-400 font-medium text-right pr-6">
                           Outwards Qty.
                         </th>
                       </tr>
@@ -118,9 +118,7 @@ const SalesPurchaseAndJournal = () => {
                               <td className="text-right px-10">{item.vType}</td>
                               <td className="text-right px-10">{item.vNo}</td>
                               <td className="text-right">{item.debit}</td>
-                              <td className="text-right pr-10">
-                                {item.credit}
-                              </td>
+                              <td className="text-right pr-6">{item.credit}</td>
                             </tr>
                           );
                         })}
