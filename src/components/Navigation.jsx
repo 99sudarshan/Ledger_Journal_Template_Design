@@ -20,6 +20,15 @@ const Navigation = () => {
         <NavLink to="/journal" className="hover:underline">
           Journal Voucher
         </NavLink>
+        <NavLink to="/invoice" className="hover:underline">
+          Tax Invoice
+        </NavLink>
+        <NavLink to="/purchase-account" className="hover:underline">
+          Purchase Account
+        </NavLink>
+        <NavLink to="/sales-account" className="hover:underline">
+          Sales Account
+        </NavLink>
       </div>
     </>
   );
