@@ -29,6 +29,12 @@ const Navigation = () => {
         <NavLink to="/sales-account" className="hover:underline">
           Sales Account
         </NavLink>
+        <NavLink to="/bills-receivable" className="hover:underline">
+          Bills Receivable
+        </NavLink>
+        <NavLink to="/bills-payable" className="hover:underline">
+          Bills Payable
+        </NavLink>
       </div>
     </>
   );
